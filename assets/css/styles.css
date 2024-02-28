@@ -1,0 +1,95 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+/* estilos nav */
+nav {
+    background-color: #373A3C;
+}
+
+/* fin estilos nav */
+
+/* inicio estilos header */
+#hero-section {
+    height: 55vw;
+    /* da el ancho del 55% del viewport width */
+    min-height: 608px;
+    background-image: url(../img/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero-section h1 {
+    font-size: 40px;
+    padding-top: 90px;
+}
+
+
+/* fin estilos header */
+
+/* inicio estilos acerca de mi */
+
+#aboutme i {
+    font-size: 70px;
+}
+
+#aboutme h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+/* fin estilos acerca de mi */
+
+/* inicio trabajos */
+
+#works {
+    background-color: #17A2B8;
+}
+
+#works h2 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+#works .card-img-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* #works button {
+    color: #56C0E0;
+} */
+
+/* fin trabajos */
+
+/* inicio footer */
+
+footer {
+    background-color: #000000;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+/* fin footer */
+
+/* inicio reglas pantallas grandes */
+
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 70px;
+    }
+
+    header p {
+        font-size: 30px;
+    }
+
+    .wrapper-contenido-header {
+        padding-left: 15vw;
+    }
+}
+
+/* fin reglas pantallas grandes */
